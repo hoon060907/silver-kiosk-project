@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* 인터넷익스플로러 */
+    user-select: none;
+}
+
+img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+  }
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#root {
+    background: #c4c4c4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+    width: 1440px;
+    height: 810px;
+    background: #fff;
+}
+
+.homescreen {
+    width: 100%;
+}
+
+.img_area {
+    width: 1100px;
+    margin: 50px auto;
+}
+.img_area img {
+    width: 100%;
+}
+.start_area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.start_btn_area {
+    margin-right: 20px;
+    position: relative;
+}
+
+.speech_bubble img {
+    height: 135px;
+}
+
+.start_button {
+    right: 0  ;
+    position: absolute;
+    width: 700px;
+    margin-right: 15px;
+    background: #000;
+    color: #fff;
+    border-radius: 20px 0 20px 20px;
+}
+
+.call_button {
+    margin-left: 15px;
+    background: #ff0000;
+    color: #000;
+    width: 230px;
+    border-radius: 0 20px 20px 20px;
+}
+
+.home_btn {
+    height: 130px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.notice_screen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.choose {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.steplist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.step {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+}
+.step_num {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #ff0000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 50%;
+}
+.header_call {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    right: 0;
+    margin-right: 20px;
+    background: #ff0000;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #fff;
+}
+.selectarea {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.speech_bubble_choose {
+    margin-top: 30px;
+    width: 70%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+.speech_bubble_choose img {
+    width: 500px;
+    align-items: flex-end;
+}
+.selectbox {
+    width: 70%;
+    background: #4C956C;
+    height: 460px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.selectbox div {
+    background: #fff;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.selectbox div img {
+    margin-top: 50px;
+}
+.selectbox div h1 {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orderscreen {
+    width: 100%;
+    height: 100%;
+}
